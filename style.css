@@ -1,0 +1,241 @@
+   
+   
+    .route-2 {
+        fill: none;
+        stroke: #ccc;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2.83px;
+        }
+      
+      .ware-3 {
+        fill: #808e96;
+      }
+      .server3 {
+          fill: #808e96;
+        }
+      
+      .warehouse1 {
+        fill: #040e1c;
+      }
+      
+      .warehouse3 {
+        fill: #062553;
+      }
+      
+      .ware-1 {
+        fill: #23343e;
+      }
+      .server2 {
+          fill: #23343e;
+        }
+      
+      .route-1 {
+        fill: #ccc;
+      }
+      
+      .warehouse2 {
+        fill: #041730;
+      }
+      
+      .ware-2 {
+        fill: #3f4e57;
+      }
+      
+      .server1 {
+          fill: #3f4e57;
+        }
+      #Warehouse_blue:hover .warehouse1,
+      #Warehouse_blue:hover .warehouse2,
+      #Warehouse_blue:hover .warehouse3{
+          fill:rgb(0, 136, 255);
+          transition: ease-in 0.2s all;
+          cursor: pointer;
+      }
+      
+      #Warehouse_grey:hover .ware-1,
+      #Warehouse_grey:hover .ware-2,
+      #Warehouse_grey:hover .ware-3{
+          fill:rgb(0, 136, 255);
+          transition: ease-in 0.2s all;
+          cursor: pointer;
+      }
+      #Server_3:hover .server1,
+      #Server_3:hover .server2,
+      #Server_3:hover .server3{
+          fill:rgb(0, 136, 255);
+          transition: ease-in 0.2s all;
+          cursor: pointer;
+      }
+      #Server_2:hover .server1,
+      #Server_2:hover .server2,
+      #Server_2:hover .server3{
+          fill:rgb(0, 136, 255);
+          transition: ease-in 0.2s all;
+          cursor: pointer;
+      }
+      #server:hover .server1,
+      #server:hover .server2,
+      #server:hover .server3{
+          fill:rgb(0, 136, 255);
+          transition: ease-in 0.2s all;
+          cursor: pointer;
+      }
+      
+       #Calque_2{
+            box-sizing: border-box;
+            width: 40%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+          }
+          
+          .mapContainer{
+            
+              background-color:#f8f8f8;
+              height:534px;
+              width:1199px;
+              filter:drop-shadow(0px 0px 12px rgba(0,0,0,0.25));
+              top:147px;
+              left:133px;
+              position:absolute;
+               box-sizing: border-box;
+              width: 40%;
+              display: flex;
+              align-items: center;
+              justify-content: space-evenly;
+          
+            background-color:#f8f8f8;
+          height:534px;
+          width:1199px;
+          filter:drop-shadow(0px 0px 12px rgba(0,0,0,0.25));
+          top:147px;
+          left:133px;
+          position:absolute;
+          border-radius: 19px;
+          }
+          
+              .popup {
+                background-color:#f8f8f8;
+      height:221px;
+      width:600px;
+      filter:drop-shadow(0px 0px 0px rgba(63, 63, 63, 0.25));
+      border-radius:19px;
+      top:550px;
+      left:-999px;
+      position:absolute;
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      border: 1px solid #ccc;
+      transition: ease-in 0.5s all;
+              }
+          
+              .card {
+                background-color:#f8f8f8;
+                height:221px;
+                width:600px;
+                filter:drop-shadow(0px 0px 0px rgba(63, 63, 63, 0.25));
+                border-radius:19px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: fixed;
+                left: 0px;
+       
+
+              }
+          
+              /* Style for the close button */
+              .close-btn {
+                cursor: pointer;
+                float: right;
+              }
+          
+              /* Style for the SVG */
+              .block-svg {
+                display: block;
+                margin-bottom: 10px;
+              }
+              .close-btn{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 30px;
+                height: 30px;
+                font-size: var(--button-text-size);
+                line-height: 1.5;
+                border-radius: 50%;
+                padding: 0;
+                position:fixed;
+                top: 15px;
+                right: 30px;
+                background-color: #478b45;
+                color: #ffffff;
+                border-radius: 3px;
+                box-shadow: 1px 1px #888;
+                font-weight: 100;
+                font-family: lato, bold, sans serif;
+                cursor: pointer;
+                border: none;
+                transition: ease-out 1s all;
+                
+              }
+    .close-btn:hover,
+    .close-btn:active {
+      background-color: #a80909;
+      color: #ffffff;
+    }
+    .btn {
+        position:fixed;
+        background-color: #3498db;
+        color: white;
+        border: none;
+        font-size: 16px;
+        font-family: lato, bold, sans serif ;
+        padding: 0px 0px 5px;
+        cursor: pointer;
+        background-color:#478b45;
+        height: 39px;
+        width:138px;
+        border-radius: 35px;
+        right: 50px;
+        left: 220px;
+        top: 130px;
+    
+        
+    }
+    .btn:hover{
+      
+        background: rgb(169, 224, 169);
+        color: rgb(12, 12, 12);
+        transition: ease 0.2s all;
+        
+      
+    }
+    .image-container{
+        position: fixed;
+        right: 450px;
+        bottom: 70px;
+    }
+    .title{
+        position: fixed;
+        right: 300px;
+        bottom: 140px;
+        font-size: 24px;
+        font-weight: bold;
+        font-family: poppins;
+    
+    }
+    .description{
+        position: fixed;
+    
+        bottom: 95px;
+        right: 220px;
+        font-size: 16px;
+        font-family: lato;
+    }
+    
+    
+      
+    
